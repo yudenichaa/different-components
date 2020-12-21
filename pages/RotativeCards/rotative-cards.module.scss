@@ -1,0 +1,15 @@
+.cards {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(0, 320px));
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  background-color: #161623;
+  background-image: radial-gradient(
+    circle 700px at center,
+    purple,
+    rgb(59, 59, 59)
+  );
+  color: rgb(221, 221, 221);
+}
